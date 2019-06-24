@@ -1,0 +1,11 @@
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\bin\Debug\TaskManagerDataAccess.dll.config
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\bin\Debug\TaskManagerDataAccess.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\bin\Debug\TaskManagerDataAccess.pdb
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\bin\Debug\EntityFramework.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\bin\Debug\EntityFramework.xml
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\obj\Debug\TaskManagerDataAccess.csproj.CoreCompileInputs.cache
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\obj\Debug\TaskManagerDataAccess.csproj.CopyComplete
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\obj\Debug\TaskManagerDataAccess.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerDataAccess\obj\Debug\TaskManagerDataAccess.pdb

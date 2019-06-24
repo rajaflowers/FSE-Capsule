@@ -1,0 +1,14 @@
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\TaskManagerApi.Tests.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\TaskManagerApi.Tests.pdb
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\obj\Debug\TaskManagerApi.Tests.csprojAssemblyReference.cache
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\obj\Debug\TaskManagerApi.Tests.csproj.CoreCompileInputs.cache
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\obj\Debug\TaskManagerApi.Tests.csproj.CopyComplete
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\obj\Debug\TaskManagerApi.Tests.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerApi.Tests\obj\Debug\TaskManagerApi.Tests.pdb

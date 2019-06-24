@@ -1,0 +1,30 @@
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerBusiness.dll.config
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerBusiness.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerBusiness.pdb
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerDataAccess.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\EntityFramework.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerDataAccess.pdb
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerDataAccess.dll.config
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\EntityFramework.xml
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.csprojAssemblyReference.cache
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.csproj.CoreCompileInputs.cache
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.csproj.CopyComplete
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.pdb
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\EntityFramework.SqlServer.dll
+D:\FSE\Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\EntityFramework.SqlServer.xml
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerBusiness.dll.config
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerBusiness.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerBusiness.pdb
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\EntityFramework.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\EntityFramework.SqlServer.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerDataAccess.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerDataAccess.pdb
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\TaskManagerDataAccess.dll.config
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\EntityFramework.xml
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\bin\Debug\EntityFramework.SqlServer.xml
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.csprojAssemblyReference.cache
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.csproj.CoreCompileInputs.cache
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.csproj.CopyComplete
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.dll
+C:\FSE Capsule\TaskManagerApi\TaskManagerBusiness\obj\Debug\TaskManagerBusiness.pdb
