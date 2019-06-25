@@ -1,0 +1,86 @@
+
+<div class="container">
+  <div class="row hide">
+    <div class="col-sm-2">
+      <label for="Name">Task Id:</label>
+    </div>
+    <div class="col-sm-3">
+      <input [(ngModel)]="addTask.TaskId" type="text" class="form-control" id="name" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">&nbsp;</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="Name">Task:</label>
+    </div>
+    <div class="col-sm-3">
+      <input [(ngModel)]="addTask.Name" type="text" class="form-control" id="name" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">&nbsp;</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="Priority">Priority:</label>
+    </div>
+    <div class="col-sm-3">
+      <input [(ngModel)]="addTask.Priority" (ngModelChange)="priorityChanged($event)" type="range" class="form-control" name="points" min="0" max="30" id="name" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">&nbsp;</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="ParentId">Parent Task:</label>
+    </div><div class="col-sm-3">
+      <select [(ngModel)]="addTask.ParentId" class="form-control" id="name">
+        <option selected="" value=""></option>
+        <option [ngValue]="pt.ParentId" *ngFor="let pt of availableParentTasks">
+          {{pt.ParentTaskName}}
+        </option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">&nbsp;</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="StartDate">Start Date:</label>
+    </div>
+    <div class="col-sm-3">
+      <input [(ngModel)]="start" type="date" class="form-control" id="name" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">&nbsp;</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="EndDate">End Date:</label>
+    </div>
+    <div class="col-sm-3">
+      <input [(ngModel)]="end" type="date" class="form-control" id="name" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">&nbsp;</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+      
+      <div class="col-sm-2">
+        <button type="submit" class="btn btn-primary" (click)="saveTask()">Update</button>
+      </div>
+      <div class="col-sm-2">
+        <button type="submit" style="padding-left:10px" class="btn btn-warning">Cancel</button>
+      </div>
+      
+    </div>
+  </div>
