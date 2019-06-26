@@ -42,4 +42,20 @@ describe('AddTaskComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render update button', () => {
+    const fixture = TestBed.createComponent(AddTaskComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('button').textContent).toContain('Update');
+  });
+
+  it('should render update button', () => {
+    const fixture = TestBed.createComponent(AddTaskComponent);
+    fixture.detectChanges();
+    fixture.componentInstance.getAllParentTasks();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('button').textContent).toContain('Update');
+  });
+
 });
