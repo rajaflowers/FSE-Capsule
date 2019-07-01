@@ -69,5 +69,15 @@ namespace TaskManagerApi.Tests.Controllers
             task = taskManagerController.GetTask(task.TaskId);
             Assert.IsTrue(task.Name == newName);
         }
+
+        [TestMethod]
+        public void TestUser()
+        {
+            TaskManagerController taskManagerController = new TaskManagerController();
+            taskManagerController.AddUser(new Models.User() { FirstName = "Raja", LastName = "S", EmployeeId="426936" });
+            IEnumerable<User> users = taskManagerController.GetAllUsers();
+            Assert.IsNotNull(users);
+            Assert.IsNotNull(users.Where(t => t.EmployeeId == "426936").First());
+        }
     }
 }

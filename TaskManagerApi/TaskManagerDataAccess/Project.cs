@@ -12,16 +12,12 @@ namespace TaskManagerDataAccess
     using System;
     using System.Collections.Generic;
     
-    public partial class Task
+    public partial class Project
     {
-        public int Task_ID { get; set; }
-        public Nullable<int> Parent__ID { get; set; }
-        public string Task1 { get; set; }
+        public int Project_ID { get; set; }
+        public string Project1 { get; set; }
         public System.DateTime Start_Date { get; set; }
         public System.DateTime End_Date { get; set; }
         public int Priority { get; set; }
-        public Nullable<int> Project_ID { get; set; }
-    
-        public virtual ParentTask ParentTask { get; set; }
     }
 }
