@@ -10,7 +10,8 @@ import { TaskService } from './task.service';
 import { HttpClientModule } from '@angular/common/http';
 //import 'jasmine';
 import { RouterTestingModule } from '@angular/router/testing';
-
+import { AddUserComponent } from './add-user/add-user.component';
+import { AddProjectComponent } from './add-project/add-project.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,8 @@ import { RouterTestingModule } from '@angular/router/testing';
     MenuComponent,
     AddTaskComponent,
     ViewTaskComponent,
+    AddUserComponent,
+    AddProjectComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,8 @@
-export class Task {
-  TaskId: number = 0;
-  ParentId!: number;
-  ProjectId!: number;
+export class Project {
+  ProjectId: number = 0;
   Name: string = "";
   StartDate: string = new Date().toISOString().split('T')[0];
   EndDate: string = new Date().toISOString().split('T')[0];
   Priority: number = 0;
-  ParentTaskName: string = "";
-  ProjectName: string = "";
+  ManagerId!: number;
 }

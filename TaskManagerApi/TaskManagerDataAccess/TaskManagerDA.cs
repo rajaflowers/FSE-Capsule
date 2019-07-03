@@ -159,6 +159,7 @@ namespace TaskManagerDataAccess
             using (FSECapsuleEntities FSECapsuleEntities = new FSECapsuleEntities())
             {
                 Project currentProject = FSECapsuleEntities.Projects.Where(t => t.Project_ID == project.Project_ID).FirstOrDefault();
+                currentProject.Project1 = project.Project1;
                 currentProject.Start_Date = project.Start_Date;
                 currentProject.End_Date = project.End_Date;
                 currentProject.Priority = project.Priority;

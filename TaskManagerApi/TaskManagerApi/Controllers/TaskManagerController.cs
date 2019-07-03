@@ -184,6 +184,7 @@ namespace TaskManagerApi.Controllers
 
             taskManagerBL.UpdateUser(new DA.User()
             {
+                User_ID = user.UserId,
                 Task_ID = user.TaskId,
                 Project_ID = user.ProjectId,
                 LastName = user.LastName,
@@ -267,6 +268,7 @@ namespace TaskManagerApi.Controllers
 
             taskManagerBL.UpdateProject(new DA.Project()
             {
+                Project_ID = project.ProjectId,
                 Project1 = project.Name,
                 Priority = project.Priority,
                 End_Date = Convert.ToDateTime(project.EndDate),
