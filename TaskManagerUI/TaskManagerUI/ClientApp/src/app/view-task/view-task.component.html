@@ -48,7 +48,43 @@
           </td>
         </tr>
         <tr>
-          <td></td><td></td><td></td><td style="float:right"><button type="button" class="btn btn-primary" (click)="callService()">Search</button></td>
+          <td class="col-sm-2">
+            <label for="projectName">Project:</label>
+          </td>
+          <td>
+            <select [(ngModel)]="selectedProjectId" class="form-control" id="name">
+              <option selected="" value="0"></option>
+              <option [ngValue]="availableProjects.ProjectId" *ngFor="let project of availableProjects">
+                {{project.Name}}
+              </option>
+            </select>
+          </td>
+          <td></td>
+          <td style="float:right"><button type="button" class="btn btn-primary" (click)="callService()">Search</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table-responsive table-container">
+    <table class="table">
+      <tbody>
+        <tr>
+          <td class="col-sm-2">
+            <label for="Name">Sort By:</label>
+          </td>
+          <td class="col-sm-2"></td>
+          <td class="col-sm-2" style="float:none">
+            <button type="button" class="btn btn-primary" (click)="SortByName()">Task Name</button>
+          </td>
+          <td class="col-sm-2" style="float:none">
+            <button type="button" class="btn" (click)="SortByPriority()">Priotrity</button>
+          </td>
+          <td class="col-sm-2" style="float:none">
+            <button type="button" class="btn" (click)="SortByStartDate()">Start Date</button>
+          </td>
+          <td class="col-sm-2" style="float:none">
+            <button type="button" class="btn" (click)="SortByEndDate()">End Date</button>
+          </td>
         </tr>
       </tbody>
     </table>

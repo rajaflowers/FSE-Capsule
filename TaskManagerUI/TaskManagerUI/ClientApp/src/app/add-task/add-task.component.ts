@@ -3,6 +3,7 @@ import { Task } from '../task';
 import { TaskService } from '../task.service';
 import { ParentTask } from '../parent-task';
 import { Router } from '@angular/router';
+import { Project } from '../project';
 
 @Component({
   selector: 'app-add-task',
@@ -16,6 +17,8 @@ export class AddTaskComponent implements OnInit {
   public start: string = new Date().toISOString().split('T')[0];
   public end: string = new Date().toISOString().split('T')[0];
   public availableParentTasks!: ParentTask[];
+  public availableProjects!: Project[];
+  public selectedProjectId: number = 0;
   constructor(private taskService: TaskService, private router: Router) {
     this._taskService = taskService;
   };
@@ -23,7 +26,16 @@ export class AddTaskComponent implements OnInit {
   ngOnInit() {
     this.getAllParentTasks();
     this.getTaskDetails();
+    this.searchProjects();
+  }
 
+  searchProjects() {
+    this._taskService.getAllProjects().subscribe(
+      lstResults => {
+        let result: Project[] = lstResults;
+        this.availableProjects = result;
+      }
+    );
   }
 
   getTaskDetails() {

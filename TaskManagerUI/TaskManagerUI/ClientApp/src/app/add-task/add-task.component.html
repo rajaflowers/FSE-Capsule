@@ -13,6 +13,22 @@
   </div>
   <div class="row">
     <div class="col-sm-2">
+      <label for="Name">Project:</label>
+    </div>
+    <div class="col-sm-3">
+      <select [(ngModel)]="selectedProjectId" class="form-control" id="name">
+        <option selected="" value="0"></option>
+        <option [ngValue]="availableProjects.ProjectId" *ngFor="let project of availableProjects">
+          {{project.Name}}
+        </option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">&nbsp;</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
       <label for="Name">Task:</label>
     </div>
     <div class="col-sm-3">
@@ -74,13 +90,13 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8">
-      
+
       <div class="col-sm-2">
         <button type="submit" class="btn btn-primary" (click)="saveTask()">Update</button>
       </div>
       <div class="col-sm-2">
         <button type="submit" style="padding-left:10px" class="btn btn-warning">Cancel</button>
       </div>
-      
+
     </div>
   </div>
