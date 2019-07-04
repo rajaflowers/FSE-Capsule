@@ -9,6 +9,8 @@ import { AddTaskComponent } from '../add-task/add-task.component';
 import { ViewTaskComponent } from '../view-task/view-task.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { AddUserComponent } from '../add-user/add-user.component';
+import { AddProjectComponent } from '../add-project/add-project.component';
 
 describe('MenuComponent', () => {
   let component: MenuComponent;
@@ -20,7 +22,9 @@ describe('MenuComponent', () => {
         AppComponent,
         MenuComponent,
         AddTaskComponent,
-        ViewTaskComponent
+        ViewTaskComponent,
+        AddUserComponent,
+        AddProjectComponent
       ],
       imports: [
         BrowserModule,
@@ -30,7 +34,6 @@ describe('MenuComponent', () => {
         RouterTestingModule,
         RouterModule,
       ],
-
     }).compileComponents();
   }));
 
